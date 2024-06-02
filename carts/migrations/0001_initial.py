@@ -32,7 +32,7 @@ class Migration(migrations.Migration):
                 'db_table': 'cart',
             },
             managers=[
-                ('pbjects', django.db.models.manager.Manager()),
+                ('objects', django.db.models.manager.Manager()),
             ],
         ),
     ]
